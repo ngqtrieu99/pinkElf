@@ -21,20 +21,38 @@ body, html
         background-size: cover;
 }
 
-
-#logo
-{
-    width: 150px;
-    height: 250px;
-}
-
 .container
 {
     display: inline-flex;
     justify-content: space-around;
+    flex-direction: row;
 }
 
-#Home_button
+#button_nav
+{
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.navBar
+{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.Content
+{
+    .welcome
+    {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }   
+}
+
+/* #Home_button
 {
     padding-left: 300px;
     text-align: right;
@@ -72,6 +90,16 @@ body, html
     text-decoration: none;
 }
 
+#searchbar
+{
+    padding-top: px;
+    float: right;
+    padding-left: 10px;
+    border: none;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
 #Register_button
 {
     float: left;
@@ -83,4 +111,5 @@ body, html
 {
     float: right;
     margin-right: 30px;
-}
+} */
+
